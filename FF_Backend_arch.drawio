@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.3">
   <diagram name="跨服匹配2.0" id="kRLWsHohcfmpTo0iLbVx">
-    <mxGraphModel dx="1426" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2000" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -203,6 +203,33 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="700" y="460" as="sourcePoint" />
             <mxPoint x="750" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XmwbCpZ-7XPL2Q7tFyDs-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;GSM&lt;/div&gt;&lt;div&gt;region: common01&lt;br&gt;&lt;div&gt;Label: cross_region_cs_peak&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="560" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="XmwbCpZ-7XPL2Q7tFyDs-3" edge="1" parent="1" source="TE3RUAPGnm2U66PTHDlM-15" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="XmwbCpZ-7XPL2Q7tFyDs-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="730" y="580" as="sourcePoint" />
+            <mxPoint x="780" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XmwbCpZ-7XPL2Q7tFyDs-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="gs" vertex="1">
+          <mxGeometry height="60" width="50" x="560" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="XmwbCpZ-7XPL2Q7tFyDs-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="gs" vertex="1">
+          <mxGeometry height="60" width="50" x="650" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="XmwbCpZ-7XPL2Q7tFyDs-6" edge="1" parent="1" source="XmwbCpZ-7XPL2Q7tFyDs-4" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="XmwbCpZ-7XPL2Q7tFyDs-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="730" y="820" as="sourcePoint" />
+            <mxPoint x="780" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XmwbCpZ-7XPL2Q7tFyDs-7" edge="1" parent="1" source="XmwbCpZ-7XPL2Q7tFyDs-5" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="XmwbCpZ-7XPL2Q7tFyDs-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="650" y="850" as="sourcePoint" />
+            <mxPoint x="695" y="790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
